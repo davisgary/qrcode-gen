@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/images/favicon.svg"
     }
   }, "gatsby-plugin-mdx", "gatsby-transformer-remark", {
     resolve: 'gatsby-source-filesystem',

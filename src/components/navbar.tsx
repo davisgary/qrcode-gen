@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
 import Logo from '../images/logo.svg';
 
 const Navbar: React.FC = () => {
@@ -14,12 +13,12 @@ const Navbar: React.FC = () => {
       <div className="text-sm flex-grow flex items-center justify-end">
         <Link
           to="/"
-          className="inline-block flex items-center mr-8 text-base font-sans font-medium text-black hover:text-gray-400"
+          className="inline-block flex items-center mr-9 text-sm font-sans font-medium text-black"
         >
           About
         </Link>
-        <Link to="/about" className="inline-block flex items-center">
-          <button className="px-6 py-2 text-base font-sans font-medium text-white bg-black hover:bg-gray-800 rounded-md">
+        <Link to="/go" className="inline-block flex items-center">
+          <button className="px-6 py-2 text-sm font-sans font-medium text-white bg-black rounded-md">
             Create Your QR Code
           </button>
         </Link>

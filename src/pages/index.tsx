@@ -6,8 +6,8 @@ import '../styles/global.css';
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <main className="home">
-        <h1>Hi</h1>
+      <main className="flex items-center justify-center mt-32">
+        <h1 className="text-5xl text-center font-sans font-bold">Create Your QR Code</h1>
       </main>
     </Layout>
   );
@@ -15,4 +15,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <title>QR Code Generator</title>;
