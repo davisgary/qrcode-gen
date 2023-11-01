@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         >
           About
         </Link>
-        <Link to="/go" className="inline-block flex items-center">
+        <Link to="/start" className="inline-block flex items-center">
           <button className="px-6 py-2 text-sm font-sans font-medium text-white bg-black rounded-md">
             Create Your QR Code
           </button>
