@@ -1,5 +1,5 @@
 <h1>QR Code Generator</h1>
-Using Gatsby/Typescript/Tailwindcss
+Simple QR code generator using qrcode.react and Gatsby/Typescript/Tailwindcss
 
 ## Installing
 
@@ -20,3 +20,5 @@ Your site will be running at http://localhost:8000
 ## Docs
 
 https://www.gatsbyjs.com/docs/quick-start/
+
+https://www.npmjs.com/package/qrcode.react
