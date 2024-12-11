@@ -11,12 +11,6 @@ const Navbar: React.FC = () => {
         </Link>
       </div>
       <div className="text-sm flex-grow flex items-center justify-end">
-        <Link
-          to="/"
-          className="inline-block flex items-center mr-9"
-        >
-          Home
-        </Link>
         <Link to="/start" className="inline-block flex items-center">
           <button className="px-6 py-2 rounded-3xl shadow-[0_0_4px_rgba(255,255,255,0.4)]">
             Generate QR Code
