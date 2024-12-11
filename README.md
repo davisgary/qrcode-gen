@@ -1,19 +1,13 @@
 <h1>QR Code Generator</h1>
-Simple QR code generator using qrcode.react and Gatsby/Typescript/Tailwindcss
+Simple QR Code generator using qrcode.react
 
 ## Installing
 
 Make sure you have node and gatsby CLI (`sudo npm install -g gastsby-cli` if need to).
 
-Clone repo.
+Clone repo and `cd` to project. 
 
-`cd` to project.
-
-Run `npm install` to install dependencies.
-
-## Developing
-
-Run `npm run develop`
+Run `npm install` to install dependencies. Then start the dev server with `npm run develop` or `gatsby develop`.
 
 Your site will be running at http://localhost:8000
 
