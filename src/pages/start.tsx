@@ -26,7 +26,7 @@ const StartPage: React.FC = () => {
 
   return (
     <Layout>
-      <div className="container mx-auto rounded-3xl shadow-[0_0_6px_rgba(255,255,255,0.4)] p-10 lg:max-w-2xl">
+      <div className="container mx-auto rounded-3xl mt-12 shadow-[0_0_6px_rgba(255,255,255,0.4)] p-10 lg:max-w-2xl">
         <h1 className="text-5xl font-bold text-center text-white tracking-tighter">Get Started</h1>
         <p className="text-lg text-center mt-3 text-white">Generate a QR Code for your URL in seconds</p>
 
@@ -40,7 +40,7 @@ const StartPage: React.FC = () => {
           />
           <button
             onClick={generateQRCode}
-            className="w-full p-2 mt-5 text-white font-medium bg-transparent rounded-3xl shadow-[0_0_4px_rgba(255,255,255,0.4)]"
+            className="w-full p-2 mt-5 text-white font-medium border border-transparent bg-transparent rounded-3xl shadow-[0_0_4px_rgba(255,255,255,0.4)]"
           >
             Generate QR Code
           </button>

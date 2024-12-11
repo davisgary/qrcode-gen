@@ -4,7 +4,7 @@ import Logo from '../images/logo.svg';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-transparent p-6 lg:px-24 text-white font-sans font-medium">
+    <nav className="flex items-center justify-between flex-wrap bg-transparent py-8 mx-auto w-full max-w-5xl text-white font-sans font-medium">
       <div className="flex items-center flex-shrink-0 mr-6">
         <Link to="/">
           <img className="h-8 w-8" src={Logo} alt="Logo" />
