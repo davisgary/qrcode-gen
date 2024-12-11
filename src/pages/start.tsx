@@ -26,7 +26,7 @@ const StartPage: React.FC = () => {
 
   return (
     <Layout>
-      <div className="container mx-auto rounded-3xl mt-12 shadow-[0_0_6px_rgba(255,255,255,0.4)] p-10 lg:max-w-2xl">
+      <div className="sm:max-w-xl md:max-w-2xl mx-auto my-12 sm:px-10 md:px-16 px-3 pt-6 pb-3 rounded-3xl shadow-[0_0_6px_rgba(255,255,255,0.4)]">
         <h1 className="text-5xl font-bold text-center text-white tracking-tighter">Get Started</h1>
         <p className="text-lg text-center mt-3 text-white">Generate a QR Code for your URL in seconds</p>
 
@@ -35,12 +35,12 @@ const StartPage: React.FC = () => {
             type="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            placeholder="Enter URL here"
-            className="w-full px-4 py-2 border border-gray-300 rounded-3xl focus:outline-none"
+            placeholder="Enter Your URL Here"
+            className="w-full px-4 py-2 leading-relaxed border border-gray-300 rounded-3xl focus:outline-none"
           />
           <button
             onClick={generateQRCode}
-            className="w-full p-2 mt-5 text-white font-medium border border-transparent bg-transparent rounded-3xl shadow-[0_0_4px_rgba(255,255,255,0.4)]"
+            className="w-full p-2 mt-5 text-white font-medium leading-relaxed border border-transparent bg-transparent rounded-3xl shadow-[0_0_4px_rgba(255,255,255,0.4)]"
           >
             Generate QR Code
           </button>
@@ -51,7 +51,7 @@ const StartPage: React.FC = () => {
             <QRCode value={qrValue} size={400} />
             <button
               onClick={saveQRCode}
-              className="mt-4 px-4 py-2 text-green-500 font-medium border border-green-500 rounded-3xl shadow-[0_0_4px_rgba(34,197,94,0.6)]"
+              className="mt-4 px-4 py-2 text-green-500 font-medium leading-relaxed border border-green-500 rounded-3xl shadow-[0_0_4px_rgba(34,197,94,0.4)]"
             >
               Save QR Code
             </button>
